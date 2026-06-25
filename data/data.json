@@ -116,7 +116,18 @@
           "url": "https://www.163.com/dy/article/H9U5J7KS05218435.html",
           "type": "二手"
         }
-      ]
+      ],
+      "postgrad": {
+        "recommendation": "强烈推荐",
+        "recommendationReason": "IC设计核心岗卡硕士门槛最明显，本硕薪差接近翻倍，头部企业（华为海思/台积电/中芯国际）研发岗几乎只招硕士，不考研只能做外围岗",
+        "bachelorAvgSalary": 7500,
+        "masterAvgSalary": 14000,
+        "salaryDiffNote": "本科多进测试/FAE/销售岗，硕士主流进前端/后端/验证设计岗；顶尖芯片公司（华为海思、寒武纪、龙芯）硕士starting package普遍20K+；数字以双非到中上211学校毕业生为参考基准",
+        "degreeRequirement": "IC设计核心岗位（数字前端RTL、模拟设计、DFT验证、物理实现）绝大多数要求硕士及以上；本科生主要流向测试工程师、FAE（现场应用工程师）、封测厂技术岗",
+        "highDegreeRatio": "约65-75%核心设计岗要求硕士以上",
+        "postgradRate": 55,
+        "postgradRateSource": "参考多所高校微电子学院就业质量报告（东南大学/西安电子科技大学/上海交大），深造率一般在50-65%区间"
+      }
     },
     {
       "id": "electrical-engineering",
@@ -182,7 +193,18 @@
           "url": "https://news.cqnews.net/1/detail/1253422699001606144/h5/content_1253422699001606144.html",
           "type": "二手"
         }
-      ]
+      ],
+      "postgrad": {
+        "recommendation": "建议考研",
+        "recommendationReason": "国网/南网可以本科进，但研究所和总部管培需要硕士；新能源/储能等新方向研发岗硕士竞争力显著更高；考研能打开更高平台窗口",
+        "bachelorAvgSalary": 7000,
+        "masterAvgSalary": 11000,
+        "salaryDiffNote": "电力行业（国网/南网）硕士和本科薪差不大，但进入机制不同（硕士定向研究所/总部，本科多基层站点）；新能源/储能方向硕士溢价更高",
+        "degreeRequirement": "传统电力系统（国网/南网）本科可以进入，但管培生/研究所岗位倾向硕士；电力设备制造、新能源企业研发岗偏向硕士；现场运维/检修类岗位本科足够",
+        "highDegreeRatio": "研发类岗位约50%要求硕士，运维/现场类约20%",
+        "postgradRate": 35,
+        "postgradRateSource": "参考多所理工类高校电气学院就业报告，深造率约30-40%"
+      }
     },
     {
       "id": "mechatronics",
@@ -253,7 +275,18 @@
           "url": "https://www.163.com/dy/article/H9U5J7KS05218435.html",
           "type": "二手"
         }
-      ]
+      ],
+      "postgrad": {
+        "recommendation": "视情况",
+        "recommendationReason": "本科进制造业完全可行，薪资尚可；但若目标为智能制造研发、机器人系统研发或外资企业技术岗，硕士更有优势；行业内卷趋势下顶尖岗位硕士化加速",
+        "bachelorAvgSalary": 6500,
+        "masterAvgSalary": 9500,
+        "salaryDiffNote": "机械电子工程对应岗位多为机电工程师、设备工程师、产线工程师，该类岗位学历敏感度中等；制造业大厂（博世、发那科）技术研发岗偏向硕士，设备维保类本科足够",
+        "degreeRequirement": "制造业现场类岗位本科完全够用；机器人、智能制造等研发方向和外企岗位偏好硕士；整体来看学历门槛低于芯片/软件行业",
+        "highDegreeRatio": "研发类岗位约35-45%要求硕士，生产/维保类本科即可",
+        "postgradRate": 28,
+        "postgradRateSource": "参考机械类学院就业报告，深造率约25-35%"
+      }
     },
     {
       "id": "new-energy",
@@ -313,7 +346,18 @@
           "url": "https://www.rmzxw.com.cn/c/2025-06-11/3732505.shtml",
           "type": "二手"
         }
-      ]
+      ],
+      "postgrad": {
+        "recommendation": "建议考研",
+        "recommendationReason": "新能源是最热方向之一，本科就业没障碍，但研发核心岗（电池材料/储能系统设计）硕士明显占优；行业高速增长期考研价值较高",
+        "bachelorAvgSalary": 7000,
+        "masterAvgSalary": 11500,
+        "salaryDiffNote": "储能/光伏/风电行业快速扩张，本科需求量大；但电化学储能研发、电池系统设计等核心研发岗硕士优先；宁德时代/比亚迪/华为数字能源技术研发岗倾向硕士",
+        "degreeRequirement": "新能源行业整体缺人，本科就业不难；但头部企业（宁德时代/比亚迪/阳光电源）研发岗、工艺工程师偏向硕士；项目施工、运维岗本科足够",
+        "highDegreeRatio": "研发类岗位约45-55%要求硕士，项目/运维类以本科为主",
+        "postgradRate": 40,
+        "postgradRateSource": "参考能源类学院就业报告，该专业开设时间较短，深造率估算在35-45%"
+      }
     },
     {
       "id": "energy-power",
@@ -379,7 +423,18 @@
           "url": "https://fgc.zjnu.edu.cn/2023/1208/c16734a454744/page.htm",
           "type": "二手"
         }
-      ]
+      ],
+      "postgrad": {
+        "recommendation": "视情况",
+        "recommendationReason": "就业方向高度分化：目标航发/燃机等高精尖方向必须考研，目标电厂/热电运行本科够用；考研与否强烈取决于职业目标",
+        "bachelorAvgSalary": 6200,
+        "masterAvgSalary": 9000,
+        "salaryDiffNote": "传统电厂、汽轮机、内燃机方向本科进入路径清晰，薪资中等；航空发动机/燃气轮机研究院等高端方向要求硕博；近年转型新能源方向本硕差距拉大",
+        "degreeRequirement": "传统电厂/热电联供等运行岗本科可以进入；航空发动机、燃气轮机、制冷空调研发等高端方向研究院几乎要求硕士以上；就业方向决定考研必要性",
+        "highDegreeRatio": "研究所/研发岗约60%要求硕士，电厂运行/工程类本科为主",
+        "postgradRate": 38,
+        "postgradRateSource": "参考哈工大/西交大等高校动力学院就业报告，深造率约35-45%"
+      }
     },
     {
       "id": "robotics",
@@ -444,7 +499,18 @@
           "url": "https://www.rmzxw.com.cn/c/2025-06-11/3732505.shtml",
           "type": "二手"
         }
-      ]
+      ],
+      "postgrad": {
+        "recommendation": "强烈推荐",
+        "recommendationReason": "机器人算法研发岗硕士化程度极高，本科更多流向系统集成和技术服务；该专业硕士供不应求，本硕薪差显著；行业在高速扩张期，考研投资回报率高",
+        "bachelorAvgSalary": 7500,
+        "masterAvgSalary": 13000,
+        "salaryDiffNote": "机器人工程是较新专业（2015年后大量开设），本科生数量相对少；运动控制/感知算法/机器人系统集成研发岗硕士需求旺盛；大厂（华为、小米机器人、宇树）算法岗几乎只招硕博",
+        "degreeRequirement": "机器人本体设计、控制算法、感知融合等核心研发岗高度倾向硕士；机器人系统集成商（如新松/汇川）技术应用岗本科可进；工厂机器人维护/编程岗本科足够",
+        "highDegreeRatio": "算法研发类岗位约70%要求硕士，系统集成/技术服务约30%",
+        "postgradRate": 50,
+        "postgradRateSource": "估算值，机器人工程专业作为新工科，各高校设立时间差异大，深造意愿普遍较高，估算50%左右"
+      }
     },
     {
       "id": "vehicle-engineering",
@@ -498,7 +564,18 @@
           "url": "https://www.yicai.com/news/102658402.html",
           "type": "二手"
         }
-      ]
+      ],
+      "postgrad": {
+        "recommendation": "视情况",
+        "recommendationReason": "传统整车工程本科可以做，薪资中规中矩；但新能源/智能网联方向转型快，硕士在新方向岗位明显更受欢迎；有明确目标（如顶尖整车厂研发）建议考研",
+        "bachelorAvgSalary": 7000,
+        "masterAvgSalary": 10500,
+        "salaryDiffNote": "整车厂（比亚迪/吉利/上汽）本科进入路径成熟，工程师岗本科可做；智能驾驶/整车控制/电子电气架构等热门方向硕士更有竞争力；合资车企（大众/宝马）研发中心偏向硕士",
+        "degreeRequirement": "传统整车设计、动力总成、底盘开发等工程岗位本科可以进入；智能网联、ADAS、OTA软件开发等新方向偏向硕士；外资/合资研发中心较普遍要求硕士",
+        "highDegreeRatio": "智能化相关研发岗约50-60%要求硕士，传统工程岗约25-35%",
+        "postgradRate": 30,
+        "postgradRateSource": "参考各高校汽车学院就业报告，深造率约25-35%"
+      }
     },
     {
       "id": "information-security",
@@ -562,7 +639,18 @@
           "url": "http://www.mycos.com.cn/index.php/Index/news_info/nav/3/id/49271.html",
           "type": "一手"
         }
-      ]
+      ],
+      "postgrad": {
+        "recommendation": "视情况",
+        "recommendationReason": "信息安全是特殊专业：技术实力导向强，优秀本科生靠CTF/漏洞研究可以拿到高薪；但进大厂安全实验室/政府安全机构体制内硕士优先；目标安全研究建议考研",
+        "bachelorAvgSalary": 9000,
+        "masterAvgSalary": 14000,
+        "salaryDiffNote": "网络安全本科就业市场相对宽松，薪资在互联网中属中上；安全研究/漏洞挖掘/密码学研究等高端岗位需要硕士以上；国家监管机构（等保测评/公安部门）对学历要求不高",
+        "degreeRequirement": "安全运营、渗透测试等实操岗位本科可以进入，看技术能力而非学历；但安全研究员、密码算法工程师、硬件安全等研究型岗位需要硕士；大厂安全实验室（腾讯玄武/华为安全）偏向硕博",
+        "highDegreeRatio": "安全研究类岗位约55%要求硕士，安全运营/测试岗约20-30%",
+        "postgradRate": 32,
+        "postgradRateSource": "参考信息安全相关学院就业报告，深造率约28-38%"
+      }
     },
     {
       "id": "network-engineering",
@@ -621,7 +709,18 @@
           "url": "http://www.mycos.com.cn/index.php/Index/news_info/nav/3/id/49271.html",
           "type": "一手"
         }
-      ]
+      ],
+      "postgrad": {
+        "recommendation": "视情况",
+        "recommendationReason": "传统网络工程师本科完全够用，就业面宽；但互联网大厂网络研发和华为网络研发岗硕士竞争力更强；目标运维/中小企业本科足够，目标大厂研发建议考研",
+        "bachelorAvgSalary": 7500,
+        "masterAvgSalary": 11000,
+        "salaryDiffNote": "网络工程本科就业路径较宽，运维/网工类岗位本科可以胜任；云计算/SDN研发等方向硕士优先；互联网大厂有明显本硕薪差",
+        "degreeRequirement": "网络工程师（路由器/交换机配置运维）本科足够；云网络/SDN/NFV研发偏向硕士；大厂基础架构/网络研发岗偏向硕士；5G核心网研发硕士为主",
+        "highDegreeRatio": "研发类岗位约40-50%要求硕士，运维/网络工程类本科为主",
+        "postgradRate": 25,
+        "postgradRateSource": "网络工程专业深造率相对较低，估算在20-30%"
+      }
     },
     {
       "id": "information-engineering",
@@ -691,7 +790,18 @@
           "url": "http://www.mycos.com.cn/index.php/Index/response_info/nav/3/id/94297.html",
           "type": "一手"
         }
-      ]
+      ],
+      "postgrad": {
+        "recommendation": "建议考研",
+        "recommendationReason": "华为/中兴等顶级通信企业研发岗对硕士学历明确倾向，本硕薪差显著；5G/通信算法领域持续扩张，硕士供不应求；通信方向考研性价比较高",
+        "bachelorAvgSalary": 7800,
+        "masterAvgSalary": 12000,
+        "salaryDiffNote": "信息工程方向较宽，覆盖通信/信号处理/嵌入式等；华为/中兴通信研发岗对本科学历要求高，但硕士溢价明显；嵌入式/通信基础研发大多数公司倾向硕士",
+        "degreeRequirement": "通信运营商（三大运营商）本科可以进入基层/省级公司；华为/中兴无线/5G研发岗高度倾向硕士；信号处理/通信算法研究几乎要求硕士以上；嵌入式硬件岗本科可以进",
+        "highDegreeRatio": "通信研发核心岗约55-65%要求硕士，运营商/基础岗约25%",
+        "postgradRate": 40,
+        "postgradRateSource": "参考通信/信息工程学院就业报告，深造率约35-45%"
+      }
     },
     {
       "id": "automation",
@@ -755,7 +865,18 @@
           "url": "https://www.rmzxw.com.cn/c/2025-06-11/3732505.shtml",
           "type": "二手"
         }
-      ]
+      ],
+      "postgrad": {
+        "recommendation": "建议考研",
+        "recommendationReason": "自动化方向多元，本科做工业现场完全可以；但随着自动驾驶/工业AI快速发展，硕士在热门方向竞争力大幅提升；目标高薪大厂研发岗（华为/地平线/宁德）几乎必须硕士",
+        "bachelorAvgSalary": 7000,
+        "masterAvgSalary": 11000,
+        "salaryDiffNote": "自动化是宽口径专业，覆盖工业自动化/控制理论/机器人/AI等；本科可在工业控制/PLC/DCS等方向找到工作；控制算法研发/自动驾驶/工业AI等热门方向硕士优势大",
+        "degreeRequirement": "PLC工程师/DCS工程师/工业现场工程师本科足够；汇川技术/英威腾等控制器研发岗偏向硕士；自动驾驶（算法/感知/规控）强要求硕士；科研院所控制理论研究需要硕博",
+        "highDegreeRatio": "研发类岗位约45-55%要求硕士，工业现场/运维约15%",
+        "postgradRate": 35,
+        "postgradRateSource": "参考各高校自动化学院就业报告，深造率约30-40%"
+      }
     }
   ]
 }

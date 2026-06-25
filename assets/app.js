@@ -19,6 +19,13 @@ export function renderOverview(overview, el) {
   `;
 }
 
+function pgTagClass(rec) {
+  if (rec === '强烈推荐') return 'high';
+  if (rec === '建议考研') return 'mid';
+  if (rec === '本科足够' || rec === '不必考研') return 'low';
+  return 'neutral'; // 视情况
+}
+
 export function renderMajorList(majors, { listEl, searchEl, fieldEl, sortEl }) {
   // 填充方向下拉
   const fields = [...new Set(majors.map(m => m.field))].sort();
@@ -41,15 +48,18 @@ export function renderMajorList(majors, { listEl, searchEl, fieldEl, sortEl }) {
       return (b.salary.value ?? 0) - (a.salary.value ?? 0); // salary-desc 默认
     });
     listEl.innerHTML = rows.length
-      ? rows.map(m => `
+      ? rows.map(m => {
+          const pg = m.postgrad;
+          const pgTag = pg ? `<span class="pg-tag pg-tag--${pgTagClass(pg.recommendation)}">${pg.recommendation}</span>` : '';
+          return `
           <li class="major-card">
             <a href="major.html?id=${encodeURIComponent(m.id)}">
-              <span class="major-name">${m.name}</span>
+              <span class="major-name">${m.name} ${pgTag}</span>
               <span class="major-field">${m.field}</span>
               <span class="major-salary">${m.salary.value ? `参考月收入 ¥${m.salary.value}` : '月收入数据待补充'}</span>
               <span class="major-green">绿牌年份：${m.greenYears.join('、')}</span>
             </a>
-          </li>`).join('')
+          </li>`;}).join('')
       : '<li class="muted">没有匹配的专业。</li>';
   }
 
@@ -194,6 +204,40 @@ export function renderMajorDetail(major, el) {
   const sources = major.sources.map(s =>
     `<li><a href="${s.url}" target="_blank" rel="noopener">${s.name}</a> <span class="src-type">[${s.type}]</span></li>`
   ).join('');
+  const pgSection = major.postgrad ? (() => {
+    const pg = major.postgrad;
+    const tagCls = pgTagClass(pg.recommendation);
+    const pct = Math.round((pg.masterAvgSalary - pg.bachelorAvgSalary) / pg.bachelorAvgSalary * 100);
+    return `
+    <section class="postgrad-section">
+      <h3>考研分析</h3>
+      <div class="pg-header">
+        <span class="pg-tag pg-tag--${tagCls} pg-tag--lg">${pg.recommendation}</span>
+        <p class="pg-reason">${pg.recommendationReason}</p>
+      </div>
+      <div class="pg-stats">
+        <div class="pg-stat">
+          <span class="pg-stat-label">本科参考月薪</span>
+          <span class="pg-stat-value">¥${pg.bachelorAvgSalary}</span>
+        </div>
+        <div class="pg-stat">
+          <span class="pg-stat-label">硕士参考月薪</span>
+          <span class="pg-stat-value">¥${pg.masterAvgSalary}</span>
+        </div>
+        <div class="pg-stat">
+          <span class="pg-stat-label">硕士薪资提升</span>
+          <span class="pg-stat-value pg-stat-value--highlight">+${pct}%</span>
+        </div>
+        <div class="pg-stat">
+          <span class="pg-stat-label">深造率参考</span>
+          <span class="pg-stat-value">约 ${pg.postgradRate}%</span>
+        </div>
+      </div>
+      <p class="pg-detail"><strong>学历要求：</strong>${pg.degreeRequirement}</p>
+      <p class="pg-detail"><strong>高学历岗位占比：</strong>${pg.highDegreeRatio}</p>
+      <p class="muted" style="font-size:.8rem;margin-top:8px">薪资为行业综合估算，非统计数字，仅供参考。</p>
+    </section>`;
+  })() : '';
   el.innerHTML = `
     <h2>${major.name}</h2>
     <p class="major-meta">${major.field} · ${major.discipline} · 绿牌年份：${major.greenYears.join('、')}</p>
@@ -206,6 +250,7 @@ export function renderMajorDetail(major, el) {
       <h3>对应岗位</h3>
       <ul class="position-list">${positions}</ul>
     </section>
+    ${pgSection}
     <section class="sources">
       <h3>数据来源</h3>
       <ul>${sources}</ul>
