@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>理科就业专业参考</title>
   <link rel="stylesheet" href="assets/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -16,18 +17,47 @@
       <h2>近五年就业形势</h2>
       <div id="overview-content">加载中…</div>
     </section>
+
+    <section id="charts">
+      <h2>就业数据图表</h2>
+      <div class="chart-grid">
+        <div class="chart-block">
+          <h3>参考月收入对比 <span class="chart-note">（麦可思应届毕业生数据，元/月）</span></h3>
+          <div id="chart-salary" class="chart-canvas"></div>
+        </div>
+        <div class="chart-block">
+          <h3>绿牌上榜年数 <span class="chart-note">（2022–2026年版累计）</span></h3>
+          <div id="chart-green-count" class="chart-canvas"></div>
+        </div>
+        <div class="chart-block chart-block--wide">
+          <h3>绿牌年份时间轴 <span class="chart-note">（各专业入榜年份一览）</span></h3>
+          <div id="chart-green-timeline" class="chart-canvas chart-canvas--tall"></div>
+        </div>
+        <div class="chart-block chart-block--wide">
+          <h3>招聘热度排序 <span class="chart-note">（Boss直聘综合判断，仅供参考）</span></h3>
+          <div id="chart-demand" class="chart-canvas"></div>
+        </div>
+      </div>
+    </section>
+
     <section id="major-entry">
       <h2>推荐专业</h2>
       <p><a class="btn" href="majors.html">浏览全部绿牌理科专业 →</a></p>
     </section>
   </main>
   <footer class="site-footer">
-    <p>数据来源：麦可思《就业蓝皮书》绿牌口径 + 夸克 + 媒体交叉核验。仅供参考。</p>
+    <p>数据来源：麦可思《就业蓝皮书》绿牌口径 + 媒体交叉核验。仅供参考，不构成志愿填报建议。</p>
   </footer>
   <script type="module">
-    import { loadData, renderOverview } from './assets/app.js';
+    import { loadData, renderOverview, renderCharts } from './assets/app.js';
     const data = await loadData();
     renderOverview(data.overview, document.getElementById('overview-content'));
+    renderCharts(data.majors, {
+      salary:        document.getElementById('chart-salary'),
+      greenCount:    document.getElementById('chart-green-count'),
+      greenTimeline: document.getElementById('chart-green-timeline'),
+      demand:        document.getElementById('chart-demand'),
+    });
   </script>
 </body>
 </html>
