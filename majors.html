@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>绿牌理科专业 - 理科就业专业参考</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header"><h1><a href="index.html" class="home-link">理科就业专业参考</a></h1></header>
+  <main>
+    <h2>绿牌理科专业</h2>
+    <div class="controls">
+      <input id="search" type="search" placeholder="搜索专业名…" aria-label="搜索专业">
+      <select id="field-filter" aria-label="按方向筛选"><option value="">全部方向</option></select>
+      <select id="sort" aria-label="排序">
+        <option value="salary-desc">月收入：高→低</option>
+        <option value="salary-asc">月收入：低→高</option>
+        <option value="name">按专业名</option>
+      </select>
+    </div>
+    <ul id="major-list" class="major-list"></ul>
+  </main>
+  <script type="module">
+    import { loadData, renderMajorList } from './assets/app.js';
+    const data = await loadData();
+    renderMajorList(data.majors, {
+      listEl: document.getElementById('major-list'),
+      searchEl: document.getElementById('search'),
+      fieldEl: document.getElementById('field-filter'),
+      sortEl: document.getElementById('sort'),
+    });
+  </script>
+</body>
+</html>

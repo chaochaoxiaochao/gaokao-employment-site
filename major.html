@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>专业详情 - 理科就业专业参考</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header"><h1><a href="index.html" class="home-link">理科就业专业参考</a></h1></header>
+  <main>
+    <p><a href="majors.html">← 返回专业列表</a></p>
+    <div id="detail">加载中…</div>
+  </main>
+  <script type="module">
+    import { loadData, renderMajorDetail } from './assets/app.js';
+    const id = new URLSearchParams(location.search).get('id');
+    const data = await loadData();
+    const major = data.majors.find(m => m.id === id);
+    renderMajorDetail(major, document.getElementById('detail'));
+  </script>
+</body>
+</html>
