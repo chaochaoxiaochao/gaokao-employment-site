@@ -183,6 +183,8 @@ export function renderCharts(majors, { salary, greenCount, greenTimeline, demand
     window.addEventListener('resize', () => c4.resize());
   }
 }
+
+export function renderMajorDetail(major, el) {
   if (!major) { el.innerHTML = '<p class="muted">未找到该专业。</p>'; return; }
   const positions = major.positions.map(p => `
     <li class="position">
