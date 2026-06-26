@@ -13,6 +13,12 @@
     <p class="tagline">从就业出发，看看理科生该选什么专业、学了能做什么</p>
   </header>
   <main>
+    <section id="top5">
+      <h2>综合评分 Top 5 专业</h2>
+      <p class="muted" style="margin:0 0 4px;font-size:.9rem;">绿牌年数 × 政策支撑 × 薪资综合加权排序，点击查看详情。</p>
+      <div id="top5-grid" class="top5-grid">加载中…</div>
+    </section>
+
     <section id="overview">
       <h2>近五年就业形势</h2>
       <div id="overview-content">加载中…</div>
@@ -37,27 +43,40 @@
           <h3>招聘热度排序 <span class="chart-note">（Boss直聘综合判断，仅供参考）</span></h3>
           <div id="chart-demand" class="chart-canvas"></div>
         </div>
+        <div class="chart-block chart-block--wide">
+          <h3>人才缺口规模 <span class="chart-note">（行业口径估算，来源：工信部/教育部报告）</span></h3>
+          <div id="chart-job-gap" class="chart-canvas"></div>
+        </div>
       </div>
     </section>
 
     <section id="major-entry">
       <h2>推荐专业</h2>
-      <p><a class="btn" href="majors.html">浏览全部绿牌理科专业 →</a></p>
+      <p><a class="btn" href="majors.html">浏览全部绿牌理科专业 →</a>
+      <a class="btn" href="universities.html" style="margin-left:8px;background:#2b5fd0">按专业/地域查推荐大学 →</a></p>
     </section>
   </main>
   <footer class="site-footer">
     <p>数据来源：麦可思《就业蓝皮书》绿牌口径 + 媒体交叉核验。仅供参考，不构成志愿填报建议。</p>
   </footer>
   <script type="module">
-    import { loadData, renderOverview, renderCharts } from './assets/app.js';
-    const data = await loadData();
+    import { loadData, renderOverview, renderCharts, renderTop5 } from './assets/app.js';
+    const [data, policyData, employmentData, jobGapData, regionalData] = await Promise.all([
+      loadData(),
+      fetch('data/policy-alignment.json').then(r => r.json()).catch(() => null),
+      fetch('data/employment-rate.json').then(r => r.json()).catch(() => null),
+      fetch('data/job-gap.json').then(r => r.json()).catch(() => null),
+      fetch('data/regional.json').then(r => r.json()).catch(() => null),
+    ]);
+    renderTop5(data.majors, policyData, employmentData, document.getElementById('top5-grid'), regionalData);
     renderOverview(data.overview, document.getElementById('overview-content'));
     renderCharts(data.majors, {
       salary:        document.getElementById('chart-salary'),
       greenCount:    document.getElementById('chart-green-count'),
       greenTimeline: document.getElementById('chart-green-timeline'),
       demand:        document.getElementById('chart-demand'),
-    });
+      jobGap:        document.getElementById('chart-job-gap'),
+    }, jobGapData);
   </script>
 </body>
 </html>

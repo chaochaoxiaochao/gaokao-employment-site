@@ -57,3 +57,78 @@ section { margin-bottom: 28px; }
 .pg-stat-value--highlight { color: #1f8a4c; }
 .pg-detail { margin: 6px 0; font-size: .9rem; }
 @media (max-width: 600px) { .pg-stats { grid-template-columns: repeat(2, 1fr); } }
+
+/* Top5 推荐卡片 */
+.top5-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); margin-top: 16px; }
+.top5-card { background: #fff; border: 1px solid #e2e6e8; border-radius: 10px; padding: 16px; display: flex; flex-direction: column; gap: 10px; text-decoration: none; color: var(--fg); transition: border-color .15s, box-shadow .15s; }
+.top5-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(31,138,76,.12); }
+.top5-card--rank1 { border-color: var(--accent); border-width: 2px; }
+.top5-rank { font-size: .75rem; font-weight: 700; color: var(--accent); letter-spacing: .04em; text-transform: uppercase; }
+.top5-name { font-size: 1.1rem; font-weight: 700; margin: 0; }
+.top5-tagline { font-size: .85rem; color: var(--muted); margin: 0; }
+.top5-stats { display: flex; gap: 12px; flex-wrap: wrap; }
+.top5-stat { display: flex; flex-direction: column; gap: 1px; }
+.top5-stat-label { font-size: .72rem; color: var(--muted); }
+.top5-stat-value { font-size: .92rem; font-weight: 600; }
+.top5-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.top5-tag { font-size: .72rem; font-weight: 600; padding: 2px 8px; border-radius: 20px; background: #e8f5ee; color: #1f8a4c; white-space: nowrap; }
+.top5-tag--policy { background: #eef2ff; color: #3b5bdb; }
+.top5-tag--region { background: #fff8e1; color: #e67e22; }
+.top5-green-bar { display: flex; gap: 3px; align-items: center; }
+.top5-green-dot { width: 10px; height: 10px; border-radius: 2px; }
+.top5-green-dot--on  { background: var(--accent); }
+.top5-green-dot--off { background: #e2e6e8; }
+.top5-green-label { font-size: .72rem; color: var(--muted); margin-left: 4px; }
+@media (max-width: 600px) { .top5-grid { grid-template-columns: 1fr; } }
+
+/* 国家战略匹配 */
+.policy-section { background: #f5f7ff; border: 1px solid #dde3f5; border-radius: 8px; padding: 16px; margin-bottom: 20px; }
+.policy-section h3 { margin: 0 0 8px; }
+.policy-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.policy-item { background: #fff; border: 1px solid #e2e6e8; border-radius: 6px; padding: 10px 12px; }
+.policy-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.policy-name { font-weight: 600; font-size: .95rem; }
+.policy-meta { font-size: .78rem; color: var(--muted); white-space: nowrap; }
+.policy-relevance { margin: 6px 0 0; font-size: .88rem; }
+.policy-note { margin: 4px 0 0; font-size: .78rem; }
+
+/* 地域就业 */
+.region-section { background: #fffdf5; border: 1px solid #f0e6c8; border-radius: 8px; padding: 16px; margin-bottom: 20px; }
+.region-section h3 { margin: 0 0 12px; }
+.region-subhead { margin: 14px 0 8px; font-size: .95rem; }
+.region-strength { display: grid; gap: 8px; margin-bottom: 6px; }
+.region-bar-row { display: flex; align-items: center; gap: 10px; }
+.region-bar-label { width: 32px; font-size: .85rem; font-weight: 600; }
+.region-bar-track { flex: 1; height: 14px; background: #eee; border-radius: 7px; overflow: hidden; }
+.region-bar-fill { display: block; height: 100%; border-radius: 7px; }
+.region-bar-fill--north { background: #3b82f6; }
+.region-bar-fill--south { background: #1f8a4c; }
+.region-bar-val { width: 30px; font-size: .8rem; color: var(--muted); text-align: right; }
+.cluster-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.cluster { background: #fff; border: 1px solid #e2e6e8; border-radius: 6px; padding: 10px 12px; }
+.cluster-region { display: inline-block; font-weight: 600; font-size: .85rem; background: #fff8e1; color: #e67e22; padding: 1px 8px; border-radius: 4px; margin-right: 8px; }
+.cluster-cities { font-size: .85rem; color: var(--fg); }
+.cluster-note { margin: 6px 0 0; font-size: .82rem; color: var(--muted); }
+.region-policy, .region-advice { margin-top: 12px; font-size: .88rem; }
+.region-policy p, .region-advice p { margin: 6px 0; }
+.emp-trend { margin: 8px 0 0; font-size: .9rem; }
+
+/* 大学搜索页 */
+.uni-title { margin: 16px 0 8px; font-size: 1.05rem; }
+.uni-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.uni-card { background: #fff; border: 1px solid #e2e6e8; border-radius: 8px; padding: 14px; }
+.uni-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.uni-name { font-weight: 700; font-size: 1.05rem; }
+.uni-loc { font-size: .82rem; color: var(--muted); white-space: nowrap; }
+.uni-major { margin: 4px 0 0; font-size: .85rem; color: var(--accent); font-weight: 600; }
+.uni-tags { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0; }
+.uni-tier { font-size: .74rem; font-weight: 700; padding: 2px 9px; border-radius: 20px; }
+.uni-tier--a { background: #e8f0ff; color: #2b5fd0; }
+.uni-tier--b { background: #e8f5ee; color: #1f8a4c; }
+.uni-tier--c { background: #f3f0fa; color: #7c5bd0; }
+.uni-flag { font-size: .72rem; font-weight: 600; padding: 2px 8px; border-radius: 4px; }
+.uni-flag--star { background: #fff4e0; color: #d68910; }
+.uni-flag--new { background: #ffeef0; color: #c0392b; }
+.uni-rank, .uni-note, .uni-partners { margin: 6px 0 0; font-size: .88rem; }
+.uni-src { margin: 8px 0 0; font-size: .78rem; }
+.uni-src a { color: var(--muted); }

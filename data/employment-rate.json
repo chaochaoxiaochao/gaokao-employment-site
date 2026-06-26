@@ -1,0 +1,75 @@
+{
+  "_meta": {
+    "description": "各绿牌专业就业状况——以绿牌在榜年份时间轴展示，替代无法公开核验的精确就业率数字",
+    "displayMode": "green-badge-timeline",
+    "note": "麦可思《中国大学生就业报告》专业级就业率数字在付费报告内，公开渠道不可核验。绿牌认定本身要求就业率+薪资+满意度同时持续高于全国均值，在榜即代表就业状况优秀；退榜年份不代表就业差，仅代表未持续领先。",
+    "sources": ["麦可思《中国大学生就业报告》2022-2026版绿牌名单（双源核验，见green-check-report.md）"],
+    "generatedAt": "2026-06-26"
+  },
+  "microelectronics": {
+    "name": "微电子科学与工程",
+    "greenYears": [2022, 2023, 2024, 2025],
+    "trend": "持续",
+    "summary": "连续四年绿牌（2022-2025版），就业状况最稳定的专业之一"
+  },
+  "electrical-engineering": {
+    "name": "电气工程及其自动化",
+    "greenYears": [2023, 2024, 2025],
+    "trend": "持续",
+    "summary": "连续三年绿牌（2023-2025版），随双碳政策持续向好"
+  },
+  "mechanical-electronics": {
+    "name": "机械电子工程",
+    "greenYears": [2023, 2024, 2025],
+    "trend": "持续",
+    "summary": "连续三年绿牌（2023-2025版），智能制造需求带动"
+  },
+  "new-energy": {
+    "name": "新能源科学与工程",
+    "greenYears": [2024, 2025],
+    "trend": "上升",
+    "summary": "近两年新入绿牌（2024-2025版），新能源行业快速扩张带动"
+  },
+  "energy-power": {
+    "name": "能源与动力工程",
+    "greenYears": [2022, 2023, 2024],
+    "trend": "波动",
+    "summary": "三年绿牌（2022-2024版），2025版未再入榜，传统能源转型期承压"
+  },
+  "robotics": {
+    "name": "机器人工程",
+    "greenYears": [2024, 2025],
+    "trend": "上升",
+    "summary": "近两年新入绿牌（2024-2025版），机器人产业爆发期快速上榜"
+  },
+  "vehicle-engineering": {
+    "name": "车辆工程",
+    "greenYears": [2025],
+    "trend": "上升",
+    "summary": "2025版首次入绿牌，新能源汽车渗透率提升带动需求回暖"
+  },
+  "information-security": {
+    "name": "信息安全",
+    "greenYears": [2018, 2019, 2020, 2021, 2022],
+    "trend": "退出",
+    "summary": "连续五年绿牌（2018-2022版），2023版起未再入榜，供给增加后竞争加剧"
+  },
+  "network-engineering": {
+    "name": "网络工程",
+    "greenYears": [2018, 2019, 2020, 2021, 2022],
+    "trend": "退出",
+    "summary": "连续五年绿牌（2018-2022版），2023版起未再入榜"
+  },
+  "information-engineering": {
+    "name": "信息工程",
+    "greenYears": [2022, 2023],
+    "trend": "退出",
+    "summary": "两年绿牌（2022-2023版），2024版起未再入榜"
+  },
+  "automation": {
+    "name": "自动化",
+    "greenYears": [2026],
+    "trend": "上升",
+    "summary": "2026版首次入绿牌（覆盖2025届），智能制造政策红利显现"
+  }
+}

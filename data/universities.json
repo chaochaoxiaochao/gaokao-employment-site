@@ -1,0 +1,1802 @@
+{
+  "_meta": {
+    "generatedAt": "2026-06-26",
+    "note": "推荐院校面向中上分数段考生（够得着211及强双非一本、够不到985顶尖名校），故完全不收录985/C9，只列211与该专业实力强的双非一本。学科评估以教育部第四轮(2017)为主、软科排名为辅；等级对应到一级学科（如微电子→电子科学与技术、自动化→控制科学与工程、信息工程→信息与通信工程、车辆/机电→机械工程、新能源/能源动力→动力工程及工程热物理），并非专业级评级，已在rank字段注明口径。评估含主观判断，仅供参考。",
+    "tierGroups": "tierGroup 派生字段：211（含双一流）/ 双非强校（有教育部第四轮真实学科评估档）/ 省重点（无公开评估，靠软科或综合判断）"
+  },
+  "microelectronics": [
+    {
+      "name": "西安电子科技大学",
+      "location": {
+        "province": "陕西",
+        "city": "西安"
+      },
+      "tier": "211/双一流",
+      "rank": "A+（电子科学与技术，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1959,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "中兴",
+        "中国电科(CETC)",
+        "华大半导体"
+      ],
+      "employmentNote": "国家示范性微电子学院，集成电路对口就业强，电子信息全行业认可度高",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 电子科学与技术（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70662.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "杭州电子科技大学",
+      "location": {
+        "province": "浙江",
+        "city": "杭州"
+      },
+      "tier": "双非一本（浙江省重点）",
+      "rank": "B+（电子科学与技术，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1980,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为海思",
+        "海康威视",
+        "士兰微电子"
+      ],
+      "employmentNote": "电子信息双非标杆，集成电路方向强，长三角芯片/电子企业就业对口度高",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 电子科学与技术（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70662.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "南京邮电大学",
+      "location": {
+        "province": "江苏",
+        "city": "南京"
+      },
+      "tier": "双一流（非985非211，世界一流学科建设高校）",
+      "rank": "B+（电子科学与技术，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1958,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "中兴",
+        "华润微电子"
+      ],
+      "employmentNote": "邮电系特色校，有机电子与信息显示国家级平台，集成电路/电子企业就业稳",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 电子科学与技术（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70662.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "西安邮电大学",
+      "location": {
+        "province": "陕西",
+        "city": "西安"
+      },
+      "tier": "双非一本（陕西省重点）",
+      "rank": "暂无公开评估（电子科学与技术第四轮未进入B+及以上公布区间；本条为专业综合判断）",
+      "isSignature": true,
+      "openedYear": 1959,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "中兴",
+        "西安电子相关院所"
+      ],
+      "employmentNote": "邮电系特色校，集成电路设计与集成系统方向就业对口，西部电子企业认可",
+      "sources": [
+        {
+          "name": "微电子科学与工程专业院校综合分析（21ic电子网）",
+          "url": "https://www.21ic.com/a/941379.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "省重点"
+    },
+    {
+      "name": "桂林电子科技大学",
+      "location": {
+        "province": "广西",
+        "city": "桂林"
+      },
+      "tier": "双非一本（广西重点）",
+      "rank": "暂无公开评估（电子科学与技术第四轮未进入B+及以上公布区间；本条为专业综合判断）",
+      "isSignature": true,
+      "openedYear": 1980,
+      "isNewProgram": false,
+      "industryPartners": [
+        "中国电科(CETC)",
+        "TCL",
+        "深圳电子企业"
+      ],
+      "employmentNote": "电子信息特色校，封测/微电子方向就业对口，珠三角电子企业去向多",
+      "sources": [
+        {
+          "name": "微电子科学与工程专业院校综合分析（21ic电子网）",
+          "url": "https://www.21ic.com/a/941379.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "省重点"
+    },
+    {
+      "name": "重庆邮电大学",
+      "location": {
+        "province": "重庆",
+        "city": "重庆"
+      },
+      "tier": "双非一本（重庆重点）",
+      "rank": "暂无公开评估（电子科学与技术第四轮未进入B+及以上公布区间；信息通信学科第四轮B-）",
+      "isSignature": true,
+      "openedYear": 1959,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "中兴",
+        "中国电科(CETC) 24/26所"
+      ],
+      "employmentNote": "邮电系特色校，集成电路与通信芯片方向就业对口，西南电子企业认可",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 信息与通信工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70663.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "省重点"
+    }
+  ],
+  "electrical-engineering": [
+    {
+      "name": "华北电力大学",
+      "location": {
+        "province": "北京",
+        "city": "北京"
+      },
+      "tier": "211/双一流",
+      "rank": "A（电气工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1958,
+      "isNewProgram": false,
+      "industryPartners": [
+        "国家电网",
+        "南方电网",
+        "五大发电集团"
+      ],
+      "employmentNote": "电力行业'黄埔军校'，国家电网/发电集团录用比例极高，性价比顶尖",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 电气工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70661.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "西南交通大学",
+      "location": {
+        "province": "四川",
+        "city": "成都"
+      },
+      "tier": "211/双一流",
+      "rank": "B+（电气工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1955,
+      "isNewProgram": false,
+      "industryPartners": [
+        "国家电网",
+        "中国中车",
+        "中铁电气化局"
+      ],
+      "employmentNote": "轨道交通电气化全国领先，铁路/电网系统就业对口度极高",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 电气工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70661.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "沈阳工业大学",
+      "location": {
+        "province": "辽宁",
+        "city": "沈阳"
+      },
+      "tier": "双非一本（辽宁重点）",
+      "rank": "B+（电气工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1949,
+      "isNewProgram": false,
+      "industryPartners": [
+        "特变电工",
+        "国家电网",
+        "金风科技"
+      ],
+      "employmentNote": "电机与电器方向传统强校，电气装备制造企业就业对口，性价比高",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 电气工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70661.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "东北电力大学",
+      "location": {
+        "province": "吉林",
+        "city": "吉林市"
+      },
+      "tier": "双非一本（吉林重点）",
+      "rank": "B（电气工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1949,
+      "isNewProgram": false,
+      "industryPartners": [
+        "国家电网",
+        "五大发电集团",
+        "国家电投"
+      ],
+      "employmentNote": "我国第一所电力工科学校，电网/发电集团认可度高，电力就业老牌强校",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 电气工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70661.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "上海电力大学",
+      "location": {
+        "province": "上海",
+        "city": "上海"
+      },
+      "tier": "双非一本（上海重点）",
+      "rank": "B-（电气工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1951,
+      "isNewProgram": false,
+      "industryPartners": [
+        "国家电网",
+        "上海电气",
+        "五大发电集团"
+      ],
+      "employmentNote": "电力特色校，长三角电网/发电企业就业对口，区位与行业资源好",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 电气工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70661.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "三峡大学",
+      "location": {
+        "province": "湖北",
+        "city": "宜昌"
+      },
+      "tier": "双非一本（湖北省部共建）",
+      "rank": "B-（电气工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1978,
+      "isNewProgram": false,
+      "industryPartners": [
+        "三峡集团",
+        "国家电网",
+        "南方电网"
+      ],
+      "employmentNote": "水电特色鲜明，依托三峡集团，水电/电网就业对口度高",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 电气工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70661.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "长沙理工大学",
+      "location": {
+        "province": "湖南",
+        "city": "长沙"
+      },
+      "tier": "双非一本（湖南省部共建）",
+      "rank": "B-（电气工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1956,
+      "isNewProgram": false,
+      "industryPartners": [
+        "国家电网",
+        "南方电网",
+        "特变电工"
+      ],
+      "employmentNote": "电力行业老牌特色校，电网系统就业对口，华中/华南电网认可度高",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 电气工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70661.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    }
+  ],
+  "mechanical-electronics": [
+    {
+      "name": "燕山大学",
+      "location": {
+        "province": "河北",
+        "city": "秦皇岛"
+      },
+      "tier": "双非一本（河北省部共建）",
+      "rank": "B+（机械工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1960,
+      "isNewProgram": false,
+      "industryPartners": [
+        "中信重工",
+        "三一重工",
+        "首钢"
+      ],
+      "employmentNote": "重型机械与机电方向全国知名，重工/装备企业就业对口，双非性价比标杆",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 机械工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70655.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "江苏大学",
+      "location": {
+        "province": "江苏",
+        "city": "镇江"
+      },
+      "tier": "双非一本（江苏省部共建）",
+      "rank": "B+（机械工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1960,
+      "isNewProgram": false,
+      "industryPartners": [
+        "徐工集团",
+        "汇川技术",
+        "格力"
+      ],
+      "employmentNote": "流体机械/农机机电方向强，长三角装备制造企业就业对口度高",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 机械工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70655.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "南京理工大学",
+      "location": {
+        "province": "江苏",
+        "city": "南京"
+      },
+      "tier": "211/双一流",
+      "rank": "B+（机械工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1953,
+      "isNewProgram": false,
+      "industryPartners": [
+        "兵器工业集团",
+        "汇川技术",
+        "徐工集团"
+      ],
+      "employmentNote": "兵器机电特色强，机电一体化/智能装备方向军工与制造就业对口",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 机械工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70655.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "武汉理工大学",
+      "location": {
+        "province": "湖北",
+        "city": "武汉"
+      },
+      "tier": "211/双一流",
+      "rank": "B+（机械工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1958,
+      "isNewProgram": false,
+      "industryPartners": [
+        "东风汽车",
+        "三一重工",
+        "中信重工"
+      ],
+      "employmentNote": "机电与汽车装备方向强，汽车/重工企业就业对口，华中区位好",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 机械工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70655.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "太原理工大学",
+      "location": {
+        "province": "山西",
+        "city": "太原"
+      },
+      "tier": "211/双一流",
+      "rank": "B+（机械工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1958,
+      "isNewProgram": false,
+      "industryPartners": [
+        "太重集团",
+        "晋能控股",
+        "三一重工"
+      ],
+      "employmentNote": "矿山机电/重型装备方向有特色，山西能源装备企业就业对口",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 机械工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70655.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "浙江工业大学",
+      "location": {
+        "province": "浙江",
+        "city": "杭州"
+      },
+      "tier": "双非一本（浙江省重点）",
+      "rank": "暂无公开评估（机械工程第四轮未进入B+及以上公布区间；本条为专业综合判断）",
+      "isSignature": true,
+      "openedYear": 1958,
+      "isNewProgram": false,
+      "industryPartners": [
+        "海康威视",
+        "正泰集团",
+        "汇川技术"
+      ],
+      "employmentNote": "机电方向工程实力强，长三角制造/自动化企业就业资源丰富",
+      "sources": [
+        {
+          "name": "机械工程专业院校综合判断（软科2024机械类专业排名口径）",
+          "url": "https://m.gaokao.cn/zd/201807",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "省重点"
+    }
+  ],
+  "new-energy": [
+    {
+      "name": "华北电力大学",
+      "location": {
+        "province": "北京",
+        "city": "北京"
+      },
+      "tier": "211/双一流",
+      "rank": "A-（动力工程及工程热物理，教育部第四轮学科评估；新能源科学与工程依托能源动力类）",
+      "isSignature": true,
+      "openedYear": 2006,
+      "isNewProgram": false,
+      "industryPartners": [
+        "国家电投",
+        "金风科技",
+        "五大发电集团"
+      ],
+      "employmentNote": "风电/光伏/储能方向特色突出，电力与新能源央企录用率极高",
+      "sources": [
+        {
+          "name": "新能源科学与工程专业排名（华北电力前三A+，6617整理）",
+          "url": "https://www.6617.com/p_125538221.html",
+          "type": "二手"
+        },
+        {
+          "name": "全国第四轮学科评估 动力工程及工程热物理（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70660.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "江苏大学",
+      "location": {
+        "province": "江苏",
+        "city": "镇江"
+      },
+      "tier": "双非一本（江苏省部共建）",
+      "rank": "B+（动力工程及工程热物理，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 2011,
+      "isNewProgram": false,
+      "industryPartners": [
+        "阳光电源",
+        "天合光能",
+        "国家电投"
+      ],
+      "employmentNote": "能源动力学科底蕴支撑，光伏/储能方向长三角企业就业对口",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 动力工程及工程热物理（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70660.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "长沙理工大学",
+      "location": {
+        "province": "湖南",
+        "city": "长沙"
+      },
+      "tier": "双非一本（湖南省部共建）",
+      "rank": "B+（新能源科学与工程，ABC2024专业排名口径；动力/电气学科支撑）",
+      "isSignature": true,
+      "openedYear": 2011,
+      "isNewProgram": false,
+      "industryPartners": [
+        "国家电投",
+        "三一重能",
+        "国家电网"
+      ],
+      "employmentNote": "电力与新能源特色校，风光储与电网就业对口，华中区位好",
+      "sources": [
+        {
+          "name": "新能源科学与工程专业排名（长沙理工B+，6617整理）",
+          "url": "https://www.6617.com/p_125538221.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "上海电力大学",
+      "location": {
+        "province": "上海",
+        "city": "上海"
+      },
+      "tier": "双非一本（上海重点）",
+      "rank": "暂无公开评估（动力工程及工程热物理第四轮未进入B+及以上公布区间；本条为专业综合判断）",
+      "isSignature": true,
+      "openedYear": 2011,
+      "isNewProgram": false,
+      "industryPartners": [
+        "国家电投",
+        "上海电气",
+        "金风科技"
+      ],
+      "employmentNote": "电力特色校，新能源发电与储能方向就业对口，长三角能源企业认可",
+      "sources": [
+        {
+          "name": "新能源科学与工程专业院校综合判断（电力类高校排名口径）",
+          "url": "https://www.6617.com/p_125538221.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "省重点"
+    },
+    {
+      "name": "东北电力大学",
+      "location": {
+        "province": "吉林",
+        "city": "吉林市"
+      },
+      "tier": "双非一本（吉林重点）",
+      "rank": "B-（动力工程及工程热物理，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 2011,
+      "isNewProgram": false,
+      "industryPartners": [
+        "国家电投",
+        "五大发电集团",
+        "金风科技"
+      ],
+      "employmentNote": "电力老牌特色校，火电/新能源发电方向电力央企就业对口",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 动力工程及工程热物理（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70660.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "三峡大学",
+      "location": {
+        "province": "湖北",
+        "city": "宜昌"
+      },
+      "tier": "双非一本（湖北省部共建）",
+      "rank": "暂无公开评估（动力工程及工程热物理第四轮未进入B+及以上公布区间；本条为专业综合判断）",
+      "isSignature": false,
+      "openedYear": 2012,
+      "isNewProgram": false,
+      "industryPartners": [
+        "三峡集团",
+        "国家电投",
+        "国家电网"
+      ],
+      "employmentNote": "依托三峡集团水电与新能源资源，风光水储就业有行业区位优势",
+      "sources": [
+        {
+          "name": "新能源科学与工程专业院校综合判断（电力类高校排名口径）",
+          "url": "https://www.6617.com/p_125538221.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "省重点"
+    }
+  ],
+  "energy-power": [
+    {
+      "name": "华北电力大学",
+      "location": {
+        "province": "北京",
+        "city": "北京"
+      },
+      "tier": "211/双一流",
+      "rank": "A-（动力工程及工程热物理，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1958,
+      "isNewProgram": false,
+      "industryPartners": [
+        "五大发电集团",
+        "东方电气",
+        "国家电投"
+      ],
+      "employmentNote": "火电/热动方向与电力央企深度绑定，发电集团就业率极高",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 动力工程及工程热物理（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70660.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "江苏大学",
+      "location": {
+        "province": "江苏",
+        "city": "镇江"
+      },
+      "tier": "双非一本（江苏省部共建）",
+      "rank": "B+（动力工程及工程热物理，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1978,
+      "isNewProgram": false,
+      "industryPartners": [
+        "东方电气",
+        "潍柴动力",
+        "阳光电源"
+      ],
+      "employmentNote": "流体机械与热能动力方向强，泵/动力装备企业就业对口度高",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 动力工程及工程热物理（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70660.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "上海理工大学",
+      "location": {
+        "province": "上海",
+        "city": "上海"
+      },
+      "tier": "双非一本（上海重点）",
+      "rank": "B+（动力工程及工程热物理，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1960,
+      "isNewProgram": false,
+      "industryPartners": [
+        "上海电气",
+        "格力",
+        "海尔"
+      ],
+      "employmentNote": "制冷与低温/动力机械方向全国知名，制冷空调与能源装备就业对口",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 动力工程及工程热物理（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70660.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "哈尔滨工程大学",
+      "location": {
+        "province": "黑龙江",
+        "city": "哈尔滨"
+      },
+      "tier": "211/双一流",
+      "rank": "B+（动力工程及工程热物理，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1953,
+      "isNewProgram": false,
+      "industryPartners": [
+        "中国船舶",
+        "东安发动机",
+        "国家能源集团"
+      ],
+      "employmentNote": "船舶动力方向国内领先，舰船/燃机动力就业有国防行业壁垒",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 动力工程及工程热物理（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70660.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "东北电力大学",
+      "location": {
+        "province": "吉林",
+        "city": "吉林市"
+      },
+      "tier": "双非一本（吉林重点）",
+      "rank": "B-（动力工程及工程热物理，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1949,
+      "isNewProgram": false,
+      "industryPartners": [
+        "五大发电集团",
+        "东方电气",
+        "国家电投"
+      ],
+      "employmentNote": "我国第一所电力工科学校，热动/火电方向电力央企就业对口度高",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 动力工程及工程热物理（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70660.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "南京工业大学",
+      "location": {
+        "province": "江苏",
+        "city": "南京"
+      },
+      "tier": "双非一本（江苏省部共建）",
+      "rank": "暂无公开评估（动力工程及工程热物理第四轮未进入B+及以上公布区间；本条为专业综合判断）",
+      "isSignature": false,
+      "openedYear": 2001,
+      "isNewProgram": false,
+      "industryPartners": [
+        "中石化",
+        "国家能源集团",
+        "南京汽轮"
+      ],
+      "employmentNote": "化工动力背景强，过程能源与动力设备方向就业对口，长三角区位好",
+      "sources": [
+        {
+          "name": "能源与动力工程专业院校综合判断（动力工程学科第四轮口径）",
+          "url": "https://www.dxsbb.com/news/70660.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "省重点"
+    }
+  ],
+  "robotics": [
+    {
+      "name": "广东工业大学",
+      "location": {
+        "province": "广东",
+        "city": "广州"
+      },
+      "tier": "双非一本（广东省重点）",
+      "rank": "暂无专项评估（机器人工程为较新专业；依托控制科学与工程，第四轮A-）",
+      "isSignature": true,
+      "openedYear": 2016,
+      "isNewProgram": false,
+      "industryPartners": [
+        "大疆",
+        "美的",
+        "拓斯达机器人"
+      ],
+      "employmentNote": "控制学科A-(双非里少见)，珠三角机器人/智能制造产业链就业对口度极高",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 控制科学与工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70664.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "省重点"
+    },
+    {
+      "name": "杭州电子科技大学",
+      "location": {
+        "province": "浙江",
+        "city": "杭州"
+      },
+      "tier": "双非一本（浙江省重点）",
+      "rank": "暂无专项评估（机器人工程为较新专业；依托控制科学与工程，第四轮B+）",
+      "isSignature": false,
+      "openedYear": 2018,
+      "isNewProgram": false,
+      "industryPartners": [
+        "海康机器人",
+        "汇川技术",
+        "宇树科技"
+      ],
+      "employmentNote": "控制学科B+支撑，杭州机器人/智能制造产业活跃，就业资源好",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 控制科学与工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70664.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "省重点"
+    },
+    {
+      "name": "南京邮电大学",
+      "location": {
+        "province": "江苏",
+        "city": "南京"
+      },
+      "tier": "双一流（非985非211，世界一流学科建设高校）",
+      "rank": "暂无专项评估（机器人工程为较新专业；依托控制/通信学科，控制科学与工程第四轮B-）",
+      "isSignature": false,
+      "openedYear": 2018,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "汇川技术",
+        "埃斯顿机器人"
+      ],
+      "employmentNote": "通信与自动化背景支撑，长三角机器人/自动化企业就业对口",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 控制科学与工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70664.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "燕山大学",
+      "location": {
+        "province": "河北",
+        "city": "秦皇岛"
+      },
+      "tier": "双非一本（河北省部共建）",
+      "rank": "暂无专项评估（机器人工程为较新专业；依托机械工程B+、控制学科支撑）",
+      "isSignature": false,
+      "openedYear": 2016,
+      "isNewProgram": false,
+      "industryPartners": [
+        "新松机器人",
+        "三一重工",
+        "汇川技术"
+      ],
+      "employmentNote": "机械底蕴深，机器人机械本体/重载机器人方向就业对口",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 机械工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70655.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "省重点"
+    },
+    {
+      "name": "江苏大学",
+      "location": {
+        "province": "江苏",
+        "city": "镇江"
+      },
+      "tier": "双非一本（江苏省部共建）",
+      "rank": "暂无专项评估（机器人工程为较新专业；依托机械工程B+支撑）",
+      "isSignature": false,
+      "openedYear": 2017,
+      "isNewProgram": false,
+      "industryPartners": [
+        "汇川技术",
+        "埃斯顿机器人",
+        "徐工集团"
+      ],
+      "employmentNote": "机械机电实力强，长三角工业机器人企业就业对口",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 机械工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70655.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "省重点"
+    },
+    {
+      "name": "南京工程学院",
+      "location": {
+        "province": "江苏",
+        "city": "南京"
+      },
+      "tier": "双非一本（应用型省属重点）",
+      "rank": "暂无公开评估（应用型院校无一级学科博士点参评；本条为专业综合判断）",
+      "isSignature": false,
+      "openedYear": 2016,
+      "isNewProgram": false,
+      "industryPartners": [
+        "埃斯顿机器人",
+        "汇川技术",
+        "国家电网"
+      ],
+      "employmentNote": "工程应用型定位，机器人与自动化实践强，长三角制造企业就业对口、动手能力受认可",
+      "sources": [
+        {
+          "name": "机器人工程专业院校综合判断（应用型工科校就业口径）",
+          "url": "https://www.hzgrys.net/subrank/080803T.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "省重点"
+    }
+  ],
+  "vehicle-engineering": [
+    {
+      "name": "合肥工业大学",
+      "location": {
+        "province": "安徽",
+        "city": "合肥"
+      },
+      "tier": "211/双一流",
+      "rank": "A-（车辆工程，软科2024中国大学专业排名）",
+      "isSignature": true,
+      "openedYear": 1958,
+      "isNewProgram": false,
+      "industryPartners": [
+        "江淮汽车",
+        "奇瑞",
+        "大众安徽"
+      ],
+      "employmentNote": "车辆工程老牌强专业，安徽汽车产业带就业对口度高，211里性价比突出",
+      "sources": [
+        {
+          "name": "车辆工程专业排名（软科2024口径，gk100整理）",
+          "url": "https://www.gk100.com/read_24483153.htm",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "武汉理工大学",
+      "location": {
+        "province": "湖北",
+        "city": "武汉"
+      },
+      "tier": "211/双一流",
+      "rank": "A-（车辆工程，软科2024中国大学专业排名）",
+      "isSignature": true,
+      "openedYear": 1958,
+      "isNewProgram": false,
+      "industryPartners": [
+        "东风汽车",
+        "比亚迪",
+        "上汽通用"
+      ],
+      "employmentNote": "汽车工程方向强，背靠武汉东风汽车产业，主机厂就业对口度高",
+      "sources": [
+        {
+          "name": "车辆工程专业排名（软科2024口径，gk100整理）",
+          "url": "https://www.gk100.com/read_24483153.htm",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "江苏大学",
+      "location": {
+        "province": "江苏",
+        "city": "镇江"
+      },
+      "tier": "双非一本（江苏省部共建）",
+      "rank": "B+（车辆工程，软科2024专业排名口径；机械工程学科B+支撑）",
+      "isSignature": true,
+      "openedYear": 1985,
+      "isNewProgram": false,
+      "industryPartners": [
+        "上汽集团",
+        "徐工集团",
+        "比亚迪"
+      ],
+      "employmentNote": "汽车工程方向实力强，长三角汽车与零部件企业就业对口",
+      "sources": [
+        {
+          "name": "车辆工程专业排名（软科2024口径，gaokao.cn整理）",
+          "url": "https://m.gaokao.cn/zd/201807",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "南京航空航天大学",
+      "location": {
+        "province": "江苏",
+        "city": "南京"
+      },
+      "tier": "211/双一流",
+      "rank": "B+（车辆工程，软科2024专业排名口径；机械工程学科B+支撑）",
+      "isSignature": false,
+      "openedYear": 1995,
+      "isNewProgram": false,
+      "industryPartners": [
+        "上汽集团",
+        "比亚迪",
+        "蔚来"
+      ],
+      "employmentNote": "机电航空背景强，新能源汽车与智能驾驶方向长三角车企就业好",
+      "sources": [
+        {
+          "name": "车辆工程专业排名（软科2024口径，gaokao.cn整理）",
+          "url": "https://m.gaokao.cn/zd/201807",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "西南交通大学",
+      "location": {
+        "province": "四川",
+        "city": "成都"
+      },
+      "tier": "211/双一流",
+      "rank": "B+（车辆工程，软科2024专业排名口径；轨道车辆方向特色）",
+      "isSignature": true,
+      "openedYear": 1989,
+      "isNewProgram": false,
+      "industryPartners": [
+        "中国中车",
+        "比亚迪",
+        "一汽集团"
+      ],
+      "employmentNote": "轨道车辆/机车方向全国领先，高铁与轨道交通企业就业对口度极高",
+      "sources": [
+        {
+          "name": "车辆工程专业排名（软科2024口径，gaokao.cn整理）",
+          "url": "https://m.gaokao.cn/zd/201807",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "湖北汽车工业学院",
+      "location": {
+        "province": "湖北",
+        "city": "十堰"
+      },
+      "tier": "双非一本（汽车行业特色校）",
+      "rank": "暂无公开评估（无一级学科博士点参评；软科车辆工程专业榜上有名）",
+      "isSignature": true,
+      "openedYear": 1983,
+      "isNewProgram": false,
+      "industryPartners": [
+        "东风汽车",
+        "比亚迪",
+        "三环集团"
+      ],
+      "employmentNote": "由东风汽车创办的汽车行业特色校，主机厂对口就业率高，专业聚焦度强",
+      "sources": [
+        {
+          "name": "湖北汽车工业学院优势专业（软科2024专业排名）",
+          "url": "https://www.shanghairanking.cn/institution/hubei-university-of-automotive-technology",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "省重点"
+    }
+  ],
+  "information-security": [
+    {
+      "name": "西安电子科技大学",
+      "location": {
+        "province": "陕西",
+        "city": "西安"
+      },
+      "tier": "211/双一流",
+      "rank": "A+（网络空间安全，软科2024口径；密码学/信息安全国内顶尖）",
+      "isSignature": true,
+      "openedYear": 2001,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "奇安信",
+        "中国电科(CETC)"
+      ],
+      "employmentNote": "网络空间安全/密码学国内顶尖，安全与电子信息企业就业极强，211里标杆",
+      "sources": [
+        {
+          "name": "网络空间安全/信息安全专业排名（软科2024口径，CSDN整理）",
+          "url": "https://blog.csdn.net/csseky/article/details/142392357",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "杭州电子科技大学",
+      "location": {
+        "province": "浙江",
+        "city": "杭州"
+      },
+      "tier": "双非一本（浙江省重点）",
+      "rank": "B+（计算机科学与技术，教育部第四轮学科评估；信息安全为特色专业）",
+      "isSignature": true,
+      "openedYear": 2003,
+      "isNewProgram": false,
+      "industryPartners": [
+        "安恒信息",
+        "海康威视",
+        "阿里巴巴"
+      ],
+      "employmentNote": "电子信息双非标杆，网络安全方向强(安恒信息渊源)，长三角安全企业就业对口",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 计算机科学与技术（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70666.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "南京邮电大学",
+      "location": {
+        "province": "江苏",
+        "city": "南京"
+      },
+      "tier": "双一流（非985非211，世界一流学科建设高校）",
+      "rank": "B-（计算机科学与技术，教育部第四轮学科评估；信息安全/网安为特色方向）",
+      "isSignature": true,
+      "openedYear": 2003,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "奇安信",
+        "中国电信"
+      ],
+      "employmentNote": "邮电系特色校，网络与信息安全方向就业对口运营商与安全企业",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 计算机科学与技术（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70666.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "桂林电子科技大学",
+      "location": {
+        "province": "广西",
+        "city": "桂林"
+      },
+      "tier": "双非一本（广西重点）",
+      "rank": "B-（计算机科学与技术，教育部第四轮学科评估；信息安全为特色专业）",
+      "isSignature": true,
+      "openedYear": 2003,
+      "isNewProgram": false,
+      "industryPartners": [
+        "中国电科(CETC)",
+        "奇安信",
+        "TCL"
+      ],
+      "employmentNote": "电子信息特色校，密码与网络安全方向就业对口，西部与珠三角认可",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 计算机科学与技术（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70666.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "北京电子科技学院",
+      "location": {
+        "province": "北京",
+        "city": "北京"
+      },
+      "tier": "双非（提前批，党政密码特色院校）",
+      "rank": "暂无公开评估（无一级学科博士点参评；密码与信息安全为唯一定位专业）",
+      "isSignature": true,
+      "openedYear": 1998,
+      "isNewProgram": false,
+      "industryPartners": [
+        "国家密码管理局",
+        "党政机关信息安全部门"
+      ],
+      "employmentNote": "中央办公厅直属，密码与信息安全为核心专业，党政信息安全岗位定向就业突出",
+      "sources": [
+        {
+          "name": "信息安全专业院校综合判断（密码特色院校就业口径）",
+          "url": "https://m.gaokao.cn/zd/201830",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "省重点"
+    },
+    {
+      "name": "重庆邮电大学",
+      "location": {
+        "province": "重庆",
+        "city": "重庆"
+      },
+      "tier": "双非一本（重庆重点）",
+      "rank": "暂无公开评估（计算机/信息安全第四轮未进入B-及以上公布区间；本条为专业综合判断）",
+      "isSignature": true,
+      "openedYear": 2003,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "奇安信",
+        "中国电科(CETC)"
+      ],
+      "employmentNote": "邮电系特色校，网络与信息安全方向就业对口，西南安全/通信企业认可",
+      "sources": [
+        {
+          "name": "信息安全专业院校综合判断（软科2024信息安全专业排名口径）",
+          "url": "https://www.dakao100.com/article_57960.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "省重点"
+    }
+  ],
+  "network-engineering": [
+    {
+      "name": "西安电子科技大学",
+      "location": {
+        "province": "陕西",
+        "city": "西安"
+      },
+      "tier": "211/双一流",
+      "rank": "A+（网络工程，软科2024中国大学专业排名，全国第一）",
+      "isSignature": true,
+      "openedYear": 2001,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "中兴",
+        "中国电科(CETC)"
+      ],
+      "employmentNote": "软科网络工程专业全国第一，通信/网络方向与华为及运营商深度对口，211标杆",
+      "sources": [
+        {
+          "name": "网络工程专业A+名单（软科2024，w3cschool整理）",
+          "url": "https://www.w3cschool.cn/article/7986373.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "北京邮电大学",
+      "location": {
+        "province": "北京",
+        "city": "北京"
+      },
+      "tier": "211/双一流",
+      "rank": "A+（网络工程，软科2024中国大学专业排名）",
+      "isSignature": true,
+      "openedYear": 2001,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "中国移动",
+        "腾讯"
+      ],
+      "employmentNote": "信息通信'黄埔'，网络工程对口运营商与互联网大厂，就业薪资高",
+      "sources": [
+        {
+          "name": "网络工程专业A+名单（软科2024，w3cschool整理）",
+          "url": "https://www.w3cschool.cn/article/7986373.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "杭州电子科技大学",
+      "location": {
+        "province": "浙江",
+        "city": "杭州"
+      },
+      "tier": "双非一本（浙江省重点）",
+      "rank": "B+（计算机科学与技术，教育部第四轮学科评估；网络工程依托计算机/通信学科）",
+      "isSignature": true,
+      "openedYear": 2002,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "海康威视",
+        "阿里巴巴"
+      ],
+      "employmentNote": "电子信息双非标杆，网络与通信方向长三角互联网/网络企业就业对口",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 计算机科学与技术（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70666.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "南京邮电大学",
+      "location": {
+        "province": "江苏",
+        "city": "南京"
+      },
+      "tier": "双一流（非985非211，世界一流学科建设高校）",
+      "rank": "B+（信息与通信工程，教育部第四轮学科评估；网络工程为特色专业）",
+      "isSignature": true,
+      "openedYear": 2001,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "中国电信",
+        "中兴"
+      ],
+      "employmentNote": "邮电系特色校，网络/通信对口运营商，性价比高就业稳",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 信息与通信工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70663.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "重庆邮电大学",
+      "location": {
+        "province": "重庆",
+        "city": "重庆"
+      },
+      "tier": "双非一本（重庆重点）",
+      "rank": "B-（信息与通信工程，教育部第四轮学科评估；网络工程为特色专业）",
+      "isSignature": true,
+      "openedYear": 2002,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "中国移动",
+        "中兴"
+      ],
+      "employmentNote": "邮电系特色校，通信与网络方向就业对口，西南运营商/通信企业认可",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 信息与通信工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70663.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "桂林电子科技大学",
+      "location": {
+        "province": "广西",
+        "city": "桂林"
+      },
+      "tier": "双非一本（广西重点）",
+      "rank": "B-（信息与通信工程，教育部第四轮学科评估；网络工程为特色专业）",
+      "isSignature": true,
+      "openedYear": 2002,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "中兴",
+        "中国电科(CETC)"
+      ],
+      "employmentNote": "电子信息特色校，网络与通信方向就业对口，珠三角与西部企业认可",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 信息与通信工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70663.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    }
+  ],
+  "information-engineering": [
+    {
+      "name": "西安电子科技大学",
+      "location": {
+        "province": "陕西",
+        "city": "西安"
+      },
+      "tier": "211/双一流",
+      "rank": "A（信息与通信工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1959,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "中兴",
+        "中国电科(CETC)"
+      ],
+      "employmentNote": "信息工程/通信传统强校，雷达与信号处理积淀深，电子信息企业就业极强",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 信息与通信工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70663.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "北京邮电大学",
+      "location": {
+        "province": "北京",
+        "city": "北京"
+      },
+      "tier": "211/双一流",
+      "rank": "A+（信息与通信工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1955,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "中国移动",
+        "中兴"
+      ],
+      "employmentNote": "信息通信学科全国并列第一，信息工程对口运营商与通信大厂，就业薪资高",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 信息与通信工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70663.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "南京邮电大学",
+      "location": {
+        "province": "江苏",
+        "city": "南京"
+      },
+      "tier": "双一流（非985非211，世界一流学科建设高校）",
+      "rank": "B+（信息与通信工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1958,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "中兴",
+        "中国电信"
+      ],
+      "employmentNote": "邮电系特色校，信息工程对口运营商与通信企业，双非里信息通信标杆",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 信息与通信工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70663.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "重庆邮电大学",
+      "location": {
+        "province": "重庆",
+        "city": "重庆"
+      },
+      "tier": "双非一本（重庆重点）",
+      "rank": "B-（信息与通信工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1959,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "中兴",
+        "中国电科(CETC) 44所"
+      ],
+      "employmentNote": "邮电系特色校，通信与信息工程方向就业对口，西南通信/电子企业认可",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 信息与通信工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70663.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "桂林电子科技大学",
+      "location": {
+        "province": "广西",
+        "city": "桂林"
+      },
+      "tier": "双非一本（广西重点）",
+      "rank": "B-（信息与通信工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1980,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "中兴",
+        "中国电科(CETC)"
+      ],
+      "employmentNote": "电子信息特色校，信息工程方向就业对口，珠三角与西部电子企业认可",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 信息与通信工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70663.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "西安邮电大学",
+      "location": {
+        "province": "陕西",
+        "city": "西安"
+      },
+      "tier": "双非一本（陕西省重点）",
+      "rank": "B-（信息与通信工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1959,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "中兴",
+        "中国电信"
+      ],
+      "employmentNote": "邮电系特色校，通信与信息工程对口运营商，西部通信企业就业认可度高",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 信息与通信工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70663.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    }
+  ],
+  "automation": [
+    {
+      "name": "广东工业大学",
+      "location": {
+        "province": "广东",
+        "city": "广州"
+      },
+      "tier": "双非一本（广东省重点）",
+      "rank": "A-（控制科学与工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1995,
+      "isNewProgram": false,
+      "industryPartners": [
+        "美的",
+        "大疆",
+        "汇川技术"
+      ],
+      "employmentNote": "控制学科A-(双非里罕见)，珠三角智能制造/自动化企业就业对口度极高",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 控制科学与工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70664.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "南京航空航天大学",
+      "location": {
+        "province": "江苏",
+        "city": "南京"
+      },
+      "tier": "211/双一流",
+      "rank": "B+（控制科学与工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1958,
+      "isNewProgram": false,
+      "industryPartners": [
+        "航天科技集团",
+        "汇川技术",
+        "华为"
+      ],
+      "employmentNote": "导航制导与控制方向强，航空航天与智能装备企业就业对口",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 控制科学与工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70664.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "南京理工大学",
+      "location": {
+        "province": "江苏",
+        "city": "南京"
+      },
+      "tier": "211/双一流",
+      "rank": "B+（控制科学与工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1953,
+      "isNewProgram": false,
+      "industryPartners": [
+        "兵器工业集团",
+        "汇川技术",
+        "华为"
+      ],
+      "employmentNote": "兵器控制特色强，自动化/无人系统方向军工与制造就业对口",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 控制科学与工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70664.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "江南大学",
+      "location": {
+        "province": "江苏",
+        "city": "无锡"
+      },
+      "tier": "211/双一流",
+      "rank": "B+（控制科学与工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1985,
+      "isNewProgram": false,
+      "industryPartners": [
+        "海尔",
+        "汇川技术",
+        "西门子"
+      ],
+      "employmentNote": "轻工过程控制方向有特色，长三角自动化/智能制造企业就业对口",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 控制科学与工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70664.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "211"
+    },
+    {
+      "name": "杭州电子科技大学",
+      "location": {
+        "province": "浙江",
+        "city": "杭州"
+      },
+      "tier": "双非一本（浙江省重点）",
+      "rank": "B+（控制科学与工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1980,
+      "isNewProgram": false,
+      "industryPartners": [
+        "中控技术",
+        "海康威视",
+        "汇川技术"
+      ],
+      "employmentNote": "控制学科双非B+标杆，杭州工业自动化(中控渊源)企业就业对口度高",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 控制科学与工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70664.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "西安理工大学",
+      "location": {
+        "province": "陕西",
+        "city": "西安"
+      },
+      "tier": "双非一本（陕西省部共建）",
+      "rank": "B+（控制科学与工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1972,
+      "isNewProgram": false,
+      "industryPartners": [
+        "陕鼓动力",
+        "西电集团",
+        "汇川技术"
+      ],
+      "employmentNote": "工业控制方向积淀深，西部装备制造/自动化企业就业对口",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 控制科学与工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70664.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "重庆邮电大学",
+      "location": {
+        "province": "重庆",
+        "city": "重庆"
+      },
+      "tier": "双非一本（重庆重点）",
+      "rank": "B-（控制科学与工程，教育部第四轮学科评估）",
+      "isSignature": true,
+      "openedYear": 1979,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "中控技术",
+        "长安汽车"
+      ],
+      "employmentNote": "工业互联网与控制方向有特色，西南智能制造/汽车电子就业对口",
+      "sources": [
+        {
+          "name": "全国第四轮学科评估 控制科学与工程（大学生必备网整理）",
+          "url": "https://www.dxsbb.com/news/70664.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    }
+  ]
+}

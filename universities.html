@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>推荐大学 - 理科就业专业参考</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header"><h1><a href="index.html" class="home-link">理科就业专业参考</a></h1></header>
+  <main>
+    <p><a href="majors.html">← 返回专业列表</a></p>
+    <h2>推荐大学</h2>
+    <p class="muted" style="font-size:.9rem;margin-top:-4px">
+      面向中上分数段考生，<strong>只收录 211 与专业实力强的双非一本，不含 985</strong>。可按专业或地域查，并按层次筛选。
+    </p>
+    <div class="controls">
+      <select id="uni-mode" aria-label="查询方式">
+        <option value="major">按专业查大学</option>
+        <option value="province">按地域查大学</option>
+      </select>
+      <select id="uni-major" aria-label="选择专业"><option value="">选择专业…</option></select>
+      <select id="uni-province" aria-label="选择省市" style="display:none"><option value="">选择省/市…</option></select>
+      <select id="uni-tier" aria-label="层次筛选">
+        <option value="">全部层次</option>
+        <option value="211">211</option>
+        <option value="双非强校">双非强校</option>
+        <option value="省重点">省重点</option>
+      </select>
+    </div>
+    <h3 id="uni-title" class="uni-title"></h3>
+    <ul id="uni-list" class="uni-list"><li class="muted">请选择一个专业。</li></ul>
+    <p class="muted" style="font-size:.8rem;margin-top:16px">
+      层次档：211（含双一流）/ 双非强校（有教育部第四轮真实学科评估档）/ 省重点（无公开评估，靠软科或综合判断）。学科评估以教育部第四轮（2017）为主，软科排名为辅；含主观判断，仅供参考。
+    </p>
+  </main>
+  <footer class="site-footer">
+    <p>院校评估含主观成分，仅供参考，不构成志愿填报建议。机器人工程、新能源等较新专业暂无专项学科评估，已如实标注。</p>
+  </footer>
+  <script type="module">
+    import { loadData, renderUniversities } from './assets/app.js';
+    const [data, uniData] = await Promise.all([
+      loadData(),
+      fetch('data/universities.json').then(r => r.json()),
+    ]);
+    renderUniversities(uniData, data.majors, {
+      modeEl:     document.getElementById('uni-mode'),
+      majorEl:    document.getElementById('uni-major'),
+      provinceEl: document.getElementById('uni-province'),
+      tierEl:     document.getElementById('uni-tier'),
+      listEl:     document.getElementById('uni-list'),
+      titleEl:    document.getElementById('uni-title'),
+    });
+  </script>
+</body>
+</html>

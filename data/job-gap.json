@@ -1,0 +1,409 @@
+{
+  "microelectronics": [
+    {
+      "year": 2020,
+      "openings": 168300,
+      "gap": null,
+      "source": "雨前顾问 & Arm China《2023中国大陆集成电路产业人才供需报告》（回溯数据）",
+      "note": "集成电路全行业招聘岗位口径"
+    },
+    {
+      "year": 2021,
+      "openings": 222700,
+      "gap": null,
+      "source": "雨前顾问 & Arm China《2023中国大陆集成电路产业人才供需报告》",
+      "note": "同比增长32.3%"
+    },
+    {
+      "year": 2022,
+      "openings": 243600,
+      "gap": 200000,
+      "source": "工信部/CCID/中国半导体行业协会《中国集成电路产业人才白皮书2021-2022》；雨前顾问报告",
+      "note": "白皮书指出2022年全行业人才缺口约20万；设计类岗位占招聘总数50.7%"
+    },
+    {
+      "year": 2023,
+      "openings": 243600,
+      "gap": 73500,
+      "source": "雨前顾问 & Arm China《2023中国大陆集成电路产业人才供需报告》；ICCAD 2024数据",
+      "note": "招聘需求与2022年持平；设计类缺口：需求12.35万 vs 供给约5万"
+    },
+    {
+      "year": 2024,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "2024年独立招聘岗位数暂无公开年度统计；行业仍呈供不应求态势"
+    }
+  ],
+  "electrical-engineering": [
+    {
+      "year": 2020,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "专业口径独立统计缺失，通常并入智能制造/电力行业口径"
+    },
+    {
+      "year": 2021,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "同上"
+    },
+    {
+      "year": 2022,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "缺乏专业维度独立统计"
+    },
+    {
+      "year": 2023,
+      "openings": null,
+      "gap": 4500000,
+      "source": "工信部《智能制造人才发展报告》；工信部人才交流中心《智能制造领域人才需求预测报告》",
+      "note": "2026年智能制造全领域缺口预测450万（含电气自动化、工业机器人等），电气工程为核心方向之一；为领域口径非精确专业口径"
+    },
+    {
+      "year": 2024,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "电力行业年新增就业约数十万，精确专业口径无独立数据"
+    }
+  ],
+  "mechanical-electronics": [
+    {
+      "year": 2020,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "无专业维度独立统计"
+    },
+    {
+      "year": 2021,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "同上"
+    },
+    {
+      "year": 2022,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "与电气工程、工业机器人等并入智能制造口径"
+    },
+    {
+      "year": 2023,
+      "openings": null,
+      "gap": 4500000,
+      "source": "工信部《智能制造人才发展报告》",
+      "note": "智能制造领域整体缺口至2026年达450万，机械电子工程为主要方向之一；专业维度缺口无单独统计"
+    },
+    {
+      "year": 2024,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "趋势同上"
+    }
+  ],
+  "new-energy": [
+    {
+      "year": 2020,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "专业口径单独统计缺失"
+    },
+    {
+      "year": 2021,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "储能行业规模扩张，人才需求强劲，专业维度缺口无独立数字"
+    },
+    {
+      "year": 2022,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "中关村储能联盟白皮书记录行业装机高增，具体缺口数无专业口径"
+    },
+    {
+      "year": 2023,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "同上"
+    },
+    {
+      "year": 2024,
+      "openings": null,
+      "gap": 1030000,
+      "source": "工业和信息化部、教育部等三部委《制造业人才发展规划指南》（2025年预测值）",
+      "note": "节能与新能源汽车领域2025年预测缺口103万；覆盖动力电池、储能、充电桩等；新能源科学与工程毕业生是主要补充来源之一"
+    }
+  ],
+  "energy-power": [
+    {
+      "year": 2020,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "电力/能源行业景气，专业口径招聘统计由各大电力集团自行发布，无公开汇总"
+    },
+    {
+      "year": 2021,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "同上"
+    },
+    {
+      "year": 2022,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "国家电网、南方电网等年度校招规模各数千至万余人，全行业口径无独立汇总"
+    },
+    {
+      "year": 2023,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "火电、风电、光伏等方向持续扩招，能源动力工程专业独立缺口数据缺失"
+    },
+    {
+      "year": 2024,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "同上"
+    }
+  ],
+  "robotics": [
+    {
+      "year": 2020,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "机器人工程专业2018年才开始在国内大规模设立，早期数据极少"
+    },
+    {
+      "year": 2021,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "同上"
+    },
+    {
+      "year": 2022,
+      "openings": null,
+      "gap": null,
+      "source": "中国电子学会《中国机器人产业发展报告（2022年）》",
+      "note": "2022年中国工业机器人产量21.2万台；全球机器人市场规模513亿美元；人才缺口为趋势描述，无精确统计"
+    },
+    {
+      "year": 2023,
+      "openings": null,
+      "gap": 1000000,
+      "source": "工信部《智能制造发展指数报告》（多方援引）；人社部职业技能人才供需数据",
+      "note": "工业机器人领域人才缺口达百万级（数量级估算）"
+    },
+    {
+      "year": 2024,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "具身智能/人形机器人爆发，摩根士丹利预测中国市场2030年达150亿美元；精确缺口暂无"
+    }
+  ],
+  "vehicle-engineering": [
+    {
+      "year": 2020,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "传统车辆工程随新能源汽车转型发生结构重组，缺乏独立缺口统计"
+    },
+    {
+      "year": 2021,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "同上"
+    },
+    {
+      "year": 2022,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "新能源汽车渗透率加速提升，智能网联方向人才需求爆发"
+    },
+    {
+      "year": 2023,
+      "openings": null,
+      "gap": 2800000,
+      "source": "工业和信息化部、教育部等三部委《制造业人才发展规划指南》",
+      "note": "汽车行业整体人才缺口280万（含新能源方向103万），车辆工程毕业生是核心补充力量"
+    },
+    {
+      "year": 2024,
+      "openings": null,
+      "gap": 2800000,
+      "source": "人社部2025年职业技能人才供需数据（多方援引）",
+      "note": "汽车领域人才缺口280万，新能源方向103万（2025年预测）"
+    }
+  ],
+  "information-security": [
+    {
+      "year": 2020,
+      "openings": null,
+      "gap": null,
+      "source": "CSET/中国信息安全测评中心《中国信息安全从业人员现状调研报告2018-2019》",
+      "note": "报告指出从业人员严重不足；为2027年缺口预测的基础期"
+    },
+    {
+      "year": 2021,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "需求持续高增"
+    },
+    {
+      "year": 2022,
+      "openings": 30000,
+      "gap": null,
+      "source": "教育部报告（South China Morning Post援引，2022年发布）",
+      "note": "高校每年可培养约3万名网络安全毕业生（openings此处为毕业生口径，供给数）；需求远超供给"
+    },
+    {
+      "year": 2023,
+      "openings": 30000,
+      "gap": null,
+      "source": "同上",
+      "note": "年培养3万人；2027年累计缺口将达327万；缺口集中于北京、广东、浙江、上海（占全国48%）"
+    },
+    {
+      "year": 2024,
+      "openings": null,
+      "gap": 3270000,
+      "source": "教育部报告（2022年发布，2027年预测值）；奇安信《2022网络安全人才实战能力白皮书》",
+      "note": "2027年预测总缺口327万；实战攻防能力人才尤为紧缺"
+    }
+  ],
+  "network-engineering": [
+    {
+      "year": 2020,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "通常统计入IT/互联网/通信口径，无独立专业缺口数字"
+    },
+    {
+      "year": 2021,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "同上"
+    },
+    {
+      "year": 2022,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "5G建设加速，网络工程需求强劲，无专业维度独立统计"
+    },
+    {
+      "year": 2023,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "算力网络、工业互联网扩张，驱动需求；专业维度缺口无独立数字"
+    },
+    {
+      "year": 2024,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "AI基础设施、数据中心爆发加大需求；与信息安全就业市场重叠度高"
+    }
+  ],
+  "information-engineering": [
+    {
+      "year": 2020,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "信息工程宽口径专业，覆盖通信、信号处理、嵌入式等；无专业维度独立缺口统计"
+    },
+    {
+      "year": 2021,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "同上"
+    },
+    {
+      "year": 2022,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "同上"
+    },
+    {
+      "year": 2023,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "就业市场广泛，缺乏精确缺口数字"
+    },
+    {
+      "year": 2024,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "同上"
+    }
+  ],
+  "automation": [
+    {
+      "year": 2020,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "自动化是传统工科大专业，毕业生规模大，整体供需较平衡"
+    },
+    {
+      "year": 2021,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "同上"
+    },
+    {
+      "year": 2022,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "智能制造升级推动高技能自动化人才需求扩大"
+    },
+    {
+      "year": 2023,
+      "openings": null,
+      "gap": 4500000,
+      "source": "工信部《智能制造人才发展报告》；智联招聘《2025智能制造人才趋势洞察》",
+      "note": "2026年智能制造领域缺口450万（电气自动化为核心方向）；高技能岗位供需比长期约1:10"
+    },
+    {
+      "year": 2024,
+      "openings": null,
+      "gap": null,
+      "source": null,
+      "note": "PLC编程等方向2025年缺口100万（市场数据）；精确专业口径无独立统计"
+    }
+  ]
+}

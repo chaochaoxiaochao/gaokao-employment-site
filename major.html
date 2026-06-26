@@ -15,9 +15,14 @@
   <script type="module">
     import { loadData, renderMajorDetail } from './assets/app.js';
     const id = new URLSearchParams(location.search).get('id');
-    const data = await loadData();
+    const [data, regional, policy, employment] = await Promise.all([
+      loadData(),
+      fetch('data/regional.json').then(r => r.json()).catch(() => null),
+      fetch('data/policy-alignment.json').then(r => r.json()).catch(() => null),
+      fetch('data/employment-rate.json').then(r => r.json()).catch(() => null),
+    ]);
     const major = data.majors.find(m => m.id === id);
-    renderMajorDetail(major, document.getElementById('detail'));
+    renderMajorDetail(major, document.getElementById('detail'), { regional, policy, employment });
   </script>
 </body>
 </html>
