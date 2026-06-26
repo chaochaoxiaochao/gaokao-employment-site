@@ -345,6 +345,120 @@
         }
       ],
       "tierGroup": "双非强校"
+    },
+    {
+      "name": "北华大学",
+      "location": {
+        "province": "吉林",
+        "city": "吉林市"
+      },
+      "tier": "双非一本（吉林省重点）",
+      "rank": "无教育部第四轮公开评估档；电气工程及其自动化为国家A类特色专业、国家专业综合改革试点专业、国家级一流本科专业建设点（故归双非强校）",
+      "isSignature": true,
+      "openedYear": 1958,
+      "isNewProgram": false,
+      "industryPartners": [
+        "国家电网",
+        "一汽集团",
+        "中车长客"
+      ],
+      "employmentNote": "电气老牌特色专业，吉林及东北电网、装备制造企业就业对口，省属强校性价比高",
+      "sources": [
+        {
+          "name": "北华大学电气与信息工程学院（国家A类特色专业/国家专业综合改革试点/国家一流专业建设点）",
+          "url": "https://yzw.org.cn/bk/bhdxdqxx/17327.html",
+          "type": "二手"
+        },
+        {
+          "name": "北华大学优势专业（软科2024中国大学专业排名，民间榜参考）",
+          "url": "https://www.shanghairanking.cn/institution/beihua-university",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "哈尔滨理工大学",
+      "location": {
+        "province": "黑龙江",
+        "city": "哈尔滨"
+      },
+      "tier": "双非一本（黑龙江省重点）",
+      "rank": "无教育部第四轮公开评估档；电气工程及其自动化为国家级特色专业且入选国家级一流本科专业建设点（故归双非强校）",
+      "isSignature": true,
+      "openedYear": 1950,
+      "isNewProgram": false,
+      "industryPartners": [
+        "哈电集团",
+        "国家电网",
+        "特变电工"
+      ],
+      "employmentNote": "电机电器与电气装备方向积淀深，东北电力装备制造企业就业对口",
+      "sources": [
+        {
+          "name": "哈尔滨理工大学一流本科专业建设点名单（国家级+省级，含电气工程及其自动化）",
+          "url": "https://www.dxsbb.com/news/79653.html",
+          "type": "二手"
+        },
+        {
+          "name": "哈尔滨理工大学国家级特色专业名单（含电气工程及其自动化）",
+          "url": "https://www.dxsbb.com/news/3913.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "兰州理工大学",
+      "location": {
+        "province": "甘肃",
+        "city": "兰州"
+      },
+      "tier": "双非一本（甘肃省部共建）",
+      "rank": "无教育部第四轮公开评估档；电气工程及其自动化入选国家首批一流本科专业建设点（故归双非强校）",
+      "isSignature": true,
+      "openedYear": 1958,
+      "isNewProgram": false,
+      "industryPartners": [
+        "国家电网",
+        "兰石集团",
+        "特变电工"
+      ],
+      "employmentNote": "西部装备与电气特色校，电网与重型装备企业就业对口，省内认可度高",
+      "sources": [
+        {
+          "name": "兰州理工大学10个专业入选双万计划国家级一流本科专业建设点（官网，含电气工程及其自动化）",
+          "url": "https://www.lut.edu.cn/info/1062/71366.htm",
+          "type": "一手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "安徽理工大学",
+      "location": {
+        "province": "安徽",
+        "city": "淮南"
+      },
+      "tier": "双非一本（安徽省部共建）",
+      "rank": "无教育部第四轮公开评估档；电气工程及其自动化为国家级特色专业且2020年入选国家级一流本科专业建设点（故归双非强校）",
+      "isSignature": true,
+      "openedYear": 1958,
+      "isNewProgram": false,
+      "industryPartners": [
+        "国家电网",
+        "淮南矿业",
+        "中煤集团"
+      ],
+      "employmentNote": "矿山电气与能源装备特色，煤电及电网企业就业对口，安徽省内认可度高",
+      "sources": [
+        {
+          "name": "安徽理工大学一流本科专业建设点名单（国家级，含电气工程及其自动化）",
+          "url": "https://www.dxsbb.com/news/80680.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
     }
   ],
   "mechanical-electronics": [
@@ -503,6 +617,110 @@
         }
       ],
       "tierGroup": "省重点"
+    },
+    {
+      "name": "北华大学",
+      "location": {
+        "province": "吉林",
+        "city": "吉林市"
+      },
+      "tier": "双非一本（吉林省重点）",
+      "rank": "无教育部第四轮公开评估档；机械类（机械设计制造及其自动化）为国家级特色专业（故归双非强校）",
+      "isSignature": true,
+      "openedYear": 1958,
+      "isNewProgram": false,
+      "industryPartners": [
+        "一汽集团",
+        "中车长客",
+        "吉林化纤装备"
+      ],
+      "employmentNote": "机械方向老牌特色专业，东北汽车与装备制造企业就业对口，省属强校",
+      "sources": [
+        {
+          "name": "北华大学国家特色专业名单（含机械类）",
+          "url": "https://www.dxsbb.com/news/9613.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "天津工业大学",
+      "location": {
+        "province": "天津",
+        "city": "天津"
+      },
+      "tier": "双一流（非985非211，世界一流学科建设高校）",
+      "rank": "机械电子工程2020年入选国家级一流本科专业建设点（无第四轮机械工程公开评估档，依此入选双非强校口径；该校为纺织学科双一流）",
+      "isSignature": true,
+      "openedYear": 1958,
+      "isNewProgram": false,
+      "industryPartners": [
+        "天津电气",
+        "海尔",
+        "汇川技术"
+      ],
+      "employmentNote": "机电一体化方向工程实力强，京津冀智能制造企业就业对口",
+      "sources": [
+        {
+          "name": "天津工业大学机械工程学院机械电子工程入选国家级一流本科专业建设点（官网）",
+          "url": "https://www.tiangong.edu.cn/2021/0303/c1220a65002/pagem.htm",
+          "type": "一手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "河南理工大学",
+      "location": {
+        "province": "河南",
+        "city": "焦作"
+      },
+      "tier": "双非一本（河南省部共建）",
+      "rank": "无教育部第四轮公开评估档；机械设计制造及其自动化为国家级特色专业（故归双非强校；机械电子工程依托同一机械学科）",
+      "isSignature": true,
+      "openedYear": 1909,
+      "isNewProgram": false,
+      "industryPartners": [
+        "郑煤机",
+        "中信重工",
+        "宇通客车"
+      ],
+      "employmentNote": "矿山机械与机电方向积淀深，河南煤机与装备制造企业就业对口",
+      "sources": [
+        {
+          "name": "河南理工大学机械与动力工程学院（机械设计制造及其自动化为国家级特色专业）",
+          "url": "https://smpe.hpu.edu.cn/xygk/xyjj.htm",
+          "type": "一手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "哈尔滨理工大学",
+      "location": {
+        "province": "黑龙江",
+        "city": "哈尔滨"
+      },
+      "tier": "双非一本（黑龙江省重点）",
+      "rank": "无教育部第四轮公开评估档；机械设计制造及其自动化为国家级特色专业（故归双非强校；机械电子工程依托同一机械学科）",
+      "isSignature": true,
+      "openedYear": 1950,
+      "isNewProgram": false,
+      "industryPartners": [
+        "哈电集团",
+        "一重集团",
+        "汇川技术"
+      ],
+      "employmentNote": "机械与机电方向积淀深，东北重型装备制造企业就业对口",
+      "sources": [
+        {
+          "name": "哈尔滨理工大学国家级特色专业名单（含机械设计制造及其自动化）",
+          "url": "https://www.dxsbb.com/news/3913.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
     }
   ],
   "new-energy": [
@@ -824,6 +1042,32 @@
         }
       ],
       "tierGroup": "省重点"
+    },
+    {
+      "name": "兰州理工大学",
+      "location": {
+        "province": "甘肃",
+        "city": "兰州"
+      },
+      "tier": "双非一本（甘肃省部共建）",
+      "rank": "无教育部第四轮公开评估档；热能与动力工程（能源与动力工程）为国家级特色专业、流体机械及工程为国家特色专业（故归双非强校）",
+      "isSignature": true,
+      "openedYear": 1958,
+      "isNewProgram": false,
+      "industryPartners": [
+        "兰石集团",
+        "陕鼓动力",
+        "东方电气"
+      ],
+      "employmentNote": "流体机械与热能动力方向特色突出，泵阀风机与能源装备企业就业对口",
+      "sources": [
+        {
+          "name": "兰州理工大学特色专业名单（含热能与动力工程、流体机械及工程国家级特色专业）",
+          "url": "https://www.dxsbb.com/news/115019.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
     }
   ],
   "robotics": [
@@ -1140,6 +1384,58 @@
         }
       ],
       "tierGroup": "省重点"
+    },
+    {
+      "name": "重庆理工大学",
+      "location": {
+        "province": "重庆",
+        "city": "重庆"
+      },
+      "tier": "双非一本（重庆市重点）",
+      "rank": "无教育部第四轮公开评估档；车辆工程为国家级特色专业、国家专业综合改革试点，且2019年入选国家级一流本科专业建设点（故归双非强校）",
+      "isSignature": true,
+      "openedYear": 1977,
+      "isNewProgram": false,
+      "industryPartners": [
+        "长安汽车",
+        "赛力斯",
+        "宗申集团"
+      ],
+      "employmentNote": "车辆工程特色鲜明（兵工背景），重庆汽车与零部件产业链就业对口度高",
+      "sources": [
+        {
+          "name": "重庆理工大学一流本科专业建设点名单（国家级，2019含车辆工程）",
+          "url": "https://www.dxsbb.com/news/71637.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "厦门理工学院",
+      "location": {
+        "province": "福建",
+        "city": "厦门"
+      },
+      "tier": "双非一本（福建省重点）",
+      "rank": "无教育部第四轮公开评估档；车辆工程为国家级特色专业、国家专业综合改革试点，且2019年入选国家级一流本科专业建设点（故归双非强校）",
+      "isSignature": true,
+      "openedYear": 2002,
+      "isNewProgram": false,
+      "industryPartners": [
+        "金龙客车",
+        "厦门金旅",
+        "宁德时代"
+      ],
+      "employmentNote": "以客车设计制造与新能源汽车为特色，福建汽车产业就业对口、应用能力受认可",
+      "sources": [
+        {
+          "name": "厦门理工学院车辆工程（国家级特色专业、国家级一流本科专业建设点2019）",
+          "url": "https://www.dxsbb.com/news/81820.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
     }
   ],
   "information-security": [
@@ -1613,6 +1909,58 @@
         }
       ],
       "tierGroup": "双非强校"
+    },
+    {
+      "name": "成都信息工程大学",
+      "location": {
+        "province": "四川",
+        "city": "成都"
+      },
+      "tier": "双非一本（四川省部共建）",
+      "rank": "无教育部第四轮公开评估档；电子信息工程、通信工程入选国家首批一流本科专业建设点（信息工程依托同类电子信息学科，故归双非强校）",
+      "isSignature": true,
+      "openedYear": 1951,
+      "isNewProgram": false,
+      "industryPartners": [
+        "华为",
+        "中国电科(CETC)",
+        "中国气象局"
+      ],
+      "employmentNote": "气象与电子信息特色校，电子信息/通信方向就业对口，西南电子与气象系统认可",
+      "sources": [
+        {
+          "name": "成都信息工程大学国家级一流本科专业建设点名单（含电子信息工程、通信工程）",
+          "url": "https://www.dxsbb.com/news/79611.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "中国民航大学",
+      "location": {
+        "province": "天津",
+        "city": "天津"
+      },
+      "tier": "双非一本（民航行业特色校）",
+      "rank": "无教育部第四轮公开评估档；电子信息工程入选国家级一流本科专业建设点（信息工程依托同类电子信息学科，故归双非强校）",
+      "isSignature": true,
+      "openedYear": 1981,
+      "isNewProgram": false,
+      "industryPartners": [
+        "中国民航局",
+        "三大航空公司",
+        "民航各机场"
+      ],
+      "employmentNote": "民航行业特色校，航电与信息工程方向对口民航系统就业，行业壁垒高",
+      "sources": [
+        {
+          "name": "中国民航大学一流本科专业建设点名单（国家级，含电子信息工程）",
+          "url": "https://www.dxsbb.com/news/80346.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
     }
   ],
   "automation": [
@@ -1793,6 +2141,84 @@
         {
           "name": "全国第四轮学科评估 控制科学与工程（大学生必备网整理）",
           "url": "https://www.dxsbb.com/news/70664.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "哈尔滨理工大学",
+      "location": {
+        "province": "黑龙江",
+        "city": "哈尔滨"
+      },
+      "tier": "双非一本（黑龙江省重点）",
+      "rank": "无教育部第四轮公开评估档；自动化为国家级特色专业且入选国家级一流本科专业建设点（故归双非强校）",
+      "isSignature": true,
+      "openedYear": 1958,
+      "isNewProgram": false,
+      "industryPartners": [
+        "哈电集团",
+        "汇川技术",
+        "中控技术"
+      ],
+      "employmentNote": "控制与自动化方向积淀深，东北装备制造与工业自动化企业就业对口",
+      "sources": [
+        {
+          "name": "哈尔滨理工大学一流本科专业建设点名单（含自动化）+ 国家级特色专业名单（含自动化）",
+          "url": "https://www.dxsbb.com/news/79653.html",
+          "type": "二手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "兰州理工大学",
+      "location": {
+        "province": "甘肃",
+        "city": "兰州"
+      },
+      "tier": "双非一本（甘肃省部共建）",
+      "rank": "无教育部第四轮公开评估档；自动化为国家级特色专业且入选国家首批一流本科专业建设点（故归双非强校）",
+      "isSignature": true,
+      "openedYear": 1958,
+      "isNewProgram": false,
+      "industryPartners": [
+        "兰石集团",
+        "陕鼓动力",
+        "汇川技术"
+      ],
+      "employmentNote": "工业控制与自动化方向特色突出，西部装备制造企业就业对口",
+      "sources": [
+        {
+          "name": "兰州理工大学10个专业入选国家级一流本科专业建设点（官网，含自动化）",
+          "url": "https://www.lut.edu.cn/info/1062/71366.htm",
+          "type": "一手"
+        }
+      ],
+      "tierGroup": "双非强校"
+    },
+    {
+      "name": "安徽理工大学",
+      "location": {
+        "province": "安徽",
+        "city": "淮南"
+      },
+      "tier": "双非一本（安徽省部共建）",
+      "rank": "无教育部第四轮公开评估档；自动化2020年入选国家级一流本科专业建设点（故归双非强校）",
+      "isSignature": true,
+      "openedYear": 1958,
+      "isNewProgram": false,
+      "industryPartners": [
+        "淮南矿业",
+        "中煤集团",
+        "汇川技术"
+      ],
+      "employmentNote": "矿山自动化与工业控制方向特色，能源与制造企业就业对口，安徽省内认可",
+      "sources": [
+        {
+          "name": "安徽理工大学一流本科专业建设点名单（国家级，含自动化）",
+          "url": "https://www.dxsbb.com/news/80680.html",
           "type": "二手"
         }
       ],
